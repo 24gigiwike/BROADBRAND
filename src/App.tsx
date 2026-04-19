@@ -146,9 +146,9 @@ const QuadHeader = () => {
       >
         <div className="flex items-center gap-4">
           <img 
-            src="https://res.cloudinary.com/dtkluxukm/image/upload/q_auto/f_auto/v1776641232/BD_BD_tlbjmi.png" 
+            src="https://picsum.photos/seed/broadbrand-logo/200/200" 
             alt="BroadBrand Logo" 
-            className="w-10 h-10 object-cover grayscale invert border border-brand-orange hover:invert-0 hover:grayscale-0 transition-all duration-500 cursor-pointer"
+            className="w-10 h-10 object-cover border border-brand-orange transition-all duration-500 cursor-pointer"
             referrerPolicy="no-referrer"
           />
           <span className="text-2xl font-black tracking-tighter hidden md:block">BROADBRAND</span>
@@ -646,7 +646,7 @@ const Footer = () => {
              <img 
                src="https://picsum.photos/seed/broadbrand-footer/200/200" 
                alt="BroadBrand Logo" 
-               className="w-12 h-12 object-cover grayscale invert border border-brand-orange"
+               className="w-12 h-12 object-cover border border-brand-orange"
                referrerPolicy="no-referrer"
              />
              <span className="text-xl font-bold tracking-widest text-white">BROADBRAND</span>
