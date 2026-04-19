@@ -146,7 +146,7 @@ const QuadHeader = () => {
       >
         <div className="flex items-center gap-4">
           <img 
-            src="https://picsum.photos/seed/broadbrand-logo/200/200" 
+            src="https://res.cloudinary.com/dtkluxukm/image/upload/q_auto/f_auto/v1776641232/BD_BD_tlbjmi.png" 
             alt="BroadBrand Logo" 
             className="w-10 h-10 object-cover grayscale invert border border-brand-orange hover:invert-0 hover:grayscale-0 transition-all duration-500 cursor-pointer"
             referrerPolicy="no-referrer"
