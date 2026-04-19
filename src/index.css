@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Outfit:wght@400;600;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-brand-orange: #ff751f;
+  --color-brand-black: #000000;
+  
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-tighter: -0.04em;
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased selection:bg-brand-orange selection:text-black;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-tighter uppercase font-black;
+  }
+}
+
+@layer utilities {
+  .text-shadow-orange {
+    text-shadow: 0 0 20px rgba(255, 117, 31, 0.3);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-800 border-2 border-black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-brand-orange;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
