@@ -608,8 +608,8 @@ const Footer = () => {
               Dominating the landscape starts with a single conversation. Reach out today.
             </p>
             <div className="flex flex-col gap-6">
-              <a href="mailto:hello@broadbrand.ng" className="text-2xl font-bold hover:text-brand-orange transition-colors">hello@broadbrand.ng</a>
-              <a href="tel:+234800BROADBRAND" className="text-2xl font-bold hover:text-brand-orange transition-colors">+234 (0) 800 BROADBRAND</a>
+              <a href="mailto:hello@broadbrand.ng" className="text-2xl font-bold hover:text-brand-orange transition-colors">hello@broadbrand.com.ng</a>
+              <a href="tel:+234800BROADBRAND" className="text-2xl font-bold hover:text-brand-orange transition-colors">+234 (0) 7060706416</a>
             </div>
           </div>
 
@@ -617,7 +617,7 @@ const Footer = () => {
             <div className="bg-black p-12">
               <h5 className="text-brand-orange text-[10px] font-bold tracking-widest uppercase mb-6">Headquarters</h5>
               <p className="text-zinc-500 font-medium leading-relaxed">
-                12 Owerri-Port Harcourt Expressway,<br />
+                Umuodu, Mbieri<br />
                 Owerri, Imo State,<br />
                 Nigeria 460221
               </p>
